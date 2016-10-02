@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">RecycleHub</string>
+
+    <!-- Activity Titles -->
+    <string formatted="false" name="goodsDSSchemaItemFormActivity"></string>
+    <string formatted="false" name="feedbackDSSchemaItemFormActivity"></string>
+    <string formatted="false" name="recycleHubMain">RecycleHub</string>
+    <string formatted="false" name="mainScreenActivity">RecycleHub</string>
+    <string formatted="false" name="reuseMenuItem1Activity">Reuse</string>
+    <string formatted="false" name="recycleMenuItem1Activity">Recycle</string>
+    <string formatted="false" name="feedbackActivity">CONTACT US</string>
+    <string formatted="false" name="feedbackMenuItem1Activity">Feedback</string>
+</resources>
+
+

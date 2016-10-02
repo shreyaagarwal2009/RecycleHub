@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.mobileappbuilder.recyclehub20160929170255" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.GoodsDSSchemaItemFormActivity"
+            android:label="@string/goodsDSSchemaItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.FeedbackDSSchemaItemFormActivity"
+            android:label="@string/feedbackDSSchemaItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.RecycleHubMain"
+            android:label="@string/recycleHubMain"
+            android:theme="@style/AppTheme.Drawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+      </activity>
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.MainScreenActivity"
+            android:label="@string/mainScreenActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.ReuseMenuItem1Activity"
+            android:label="@string/reuseMenuItem1Activity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.ReuseMenuItem1DetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.RecycleMenuItem1Activity"
+            android:label="@string/recycleMenuItem1Activity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.RecycleMenuItem1DetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.AboutUsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.FeedbackActivity"
+            android:label="@string/feedbackActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.FeedbackMenuItem1Activity"
+            android:label="@string/feedbackMenuItem1Activity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.recyclehub20160929170255.ui.FeedbackMenuItem1DetailActivity"
+        />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:theme="@style/NoActionBar"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.worklight.wlclient.ui.UIActivity"/>
+    </application>
+
+</manifest>
